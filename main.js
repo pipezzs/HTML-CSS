@@ -16,3 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
 function redirigir(nuevoLink) {
     window.open(nuevoLink, '_blank');
 }
+
+
+function irAEnlace(url) {
+        window.location.href = url;
+    }
+
+
