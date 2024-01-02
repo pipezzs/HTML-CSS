@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
-
 /* root styling */
 
 :root{
-    --light : #f8f9fa;
+    --light : #1e2044;
     --secondary: #adb5bd;
-    --dark: #343a40;
-    --primary-color: #f15bb5;
+    --dark: #ffffff;
+    --primary-color: #6a3053;
     --secondary-color: #2ec4b6;
     --border : #e9ecef;
+    --white : #fff;
 }
 
 body{
@@ -380,3 +379,44 @@ a{
 }
 
 
+/* TEXTO INTRO */
+
+.intro-text {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--white);
+}
+
+.intro-text p {
+    font-size: 24px;
+    margin: -100px;
+    margin-bottom: 1px;
+}
+
+/* TAMAÑO SLIDER */
+
+.slider {
+    max-width: 600px;
+    margin: auto;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+.swiper-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.swiper-slide img {
+    max-width: 100%; 
+    height: auto;
+}
+
+body {
+
+    background-image: url('assets/fondo.jpg'); /* imagen de fondo */
+  }
+  
